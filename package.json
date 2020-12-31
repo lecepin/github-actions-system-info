@@ -1,0 +1,19 @@
+{
+  "name": "github-actions-system-info",
+  "version": "1.0.0",
+  "description": "Github actions system info.",
+  "main": "main.js",
+  "dependencies": {
+    "systeminformation": "^4.33.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "actions"
+  ],
+  "author": "leceping <leping086@vip.qq.com>",
+  "license": "ISC"
+}

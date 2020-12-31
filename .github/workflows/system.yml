@@ -1,0 +1,18 @@
+name: Get Github Actions System info
+on:
+  push:
+    branches:
+      - master
+jobs:
+  info:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+    steps:
+      - name: download code
+        uses: actions/checkout@v2
+      - name: execute
+        run: |
+          npm i 
+          node main.js
