@@ -1,6 +1,6 @@
 # github-actions-system-info
 Github actions system info.
-获取 Github Actions 执行机器的系统信息。
+获取 Github Actions 执行机器的系统信息。 
 
 ## 结果
 对三个系统进行了执行，结果如下所示：
