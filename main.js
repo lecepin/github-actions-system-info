@@ -45,4 +45,6 @@ Promise.all([si.osInfo(), si.cpu(), si.mem(), si.memLayout(), si.graphics(), si.
     name: "硬盘",
     info: `${~~(((_diskLayout$0$size = diskLayout === null || diskLayout === void 0 || (_diskLayout$ = diskLayout[0]) === null || _diskLayout$ === void 0 ? void 0 : _diskLayout$.size) !== null && _diskLayout$0$size !== void 0 ? _diskLayout$0$size : 0) / Math.pow(1024, 3))}GB`
   }]);
+
+  console.log({osInfo, cpu, mem, memLayout, graphics, diskLayout})
 });
