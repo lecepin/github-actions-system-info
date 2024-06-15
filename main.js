@@ -1,4 +1,5 @@
-const si = require("systeminformation");
+#!/usr/bin/env node
+import si from "systeminformation"
 
 Promise.all([
   si.osInfo(),
